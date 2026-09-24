@@ -101,3 +101,87 @@ for an action of that apparent importance.
   and to build confidence that the process was actually thorough. This is
   one of the few legitimate cases in this entire skill where the
   recommendation is to *add* delay rather than remove it.
+
+## Precise reference points (origins, research, benchmarks)
+
+- **Origin:** Named for a 1982 IBM Systems Journal study by Walter J.
+  Doherty and Ahrvind J. Thadani, "The Economic Value of Rapid Response
+  Time," which challenged the previously accepted standard of roughly two
+  seconds as an acceptable computer response time. Their central finding:
+  productivity increases *more than proportionally* as response time
+  drops below roughly 400 milliseconds — when a computer and its user can
+  interact at a pace where neither has to wait on the other, productivity,
+  cost-efficiency, and work quality all improve together, not just user
+  satisfaction.
+- **Precise response-time bands worth citing directly:** a response
+  around 100ms feels effectively instantaneous to a user; a delay in
+  roughly the 100–300ms range starts to become perceptible and begins
+  eroding a user's sense of being in control; and once a delay crosses
+  roughly 1,000ms (one second), users reliably begin thinking about other
+  things, their attention drifts away from the task, and task-relevant
+  information starts to get lost — directly increasing cognitive load and
+  reducing performance on returning to the task.
+- **Ten-second attention limit, specifically:** separate research (Robert
+  B. Miller, 1968) identified roughly ten seconds as the commonly
+  recognized limit for keeping a user's attention focused on a single
+  waiting task before they'll want to switch to something else — this is
+  the empirical basis for the recommendation that, past roughly ten
+  seconds, a bare progress bar needs to be paired with an estimated time
+  remaining and a description of what's actively happening, rather than
+  standing alone.
+- **Flow, named specifically:** a psychological state of fully immersed,
+  energized focus and enjoyment in an activity, coined by psychologist
+  Mihály Csíkszentmihályi in 1970. Flow depends on a balance between task
+  difficulty and skill level (too-hard produces frustration, too-easy
+  produces boredom), and research has associated flow states with
+  substantially higher productivity — cited figures run as high as
+  roughly five times more productive while in flow. Designing for flow
+  means giving clear feedback on what action was taken and what was
+  accomplished, removing unnecessary friction to keep the system
+  responsive, and keeping content/features discoverable enough that users
+  don't disengage out of confusion.
+- **Perceived-performance technique examples worth citing specifically:**
+  a widely used photo-sharing platform's skeleton-screen loading pattern
+  (instantly showing placeholder content blocks that get progressively
+  replaced by real content) is a concrete, well-known example of reducing
+  perceived wait time while also preventing the layout from jumping around
+  as content arrives; a popular stock-photo site's "blur up" image-loading
+  technique (showing a small, blurred low-resolution preview immediately,
+  then fading in the full-resolution image once it's loaded in the
+  background) is a specific, named version of the same underlying idea
+  applied to images; percent-done progress bars have been shown in
+  controlled research (Myers, 1985) to make wait times feel more
+  tolerable *regardless of the bar's actual numeric accuracy* — the
+  presence of visible progress feedback matters more than its precision;
+  a major email client's distinctive loading animation (combining a
+  branded animation with a simple progress indicator) is a concrete
+  example of using animation specifically to reduce the uncertainty and
+  frustration of a wait; a common OS-level software-update screen pairing
+  a progress bar with an explicit time estimate is a concrete example of
+  the "past ten seconds, add a time estimate and description" guidance in
+  practice; and a major photo-sharing platform's practice of showing a
+  newly posted comment immediately (before server confirmation, with an
+  error shown afterward only if the post actually fails) is a concrete,
+  named example of optimistic UI.
+- **The "too fast" exception, precisely:** deliberately adding a small
+  amount of purposeful delay or friction to a process has been shown to
+  increase a user's *perceived* value of that process and build a sense
+  of trust, even when the process itself takes meaningfully less time
+  than the delay implies. A confirmation modal is a simple, common example
+  of using a small amount of friction specifically to trigger more
+  careful, evaluative System 2 thinking (see the System 1 / System 2
+  framing in `aesthetic-usability-effect.md`) before a consequential
+  action, reducing the likelihood of accidental mistakes. A named,
+  concrete example at larger scale: a major platform's account privacy-
+  scan feature deliberately extends the scan's duration beyond what's
+  strictly technically necessary, using that extra time to actively
+  educate the user about what's being checked — building confidence that
+  the process was genuinely thorough rather than instant and superficial.
+- **Page-weight context worth citing as background, not as this law's
+  core mechanism:** average web page weight has grown substantially over
+  time (industry tracking has shown average desktop page weight roughly
+  tripling from the low 2010s to the low-to-mid 2020s, with mobile
+  following a similar trend), which is part of why perceived-performance
+  techniques have become a near-default expectation rather than an
+  occasional nicety — raw page weight is trending in a direction that
+  makes hitting the raw 400ms threshold harder over time, not easier.

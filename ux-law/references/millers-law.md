@@ -110,3 +110,45 @@ effort rather than the raw count. If the underlying complaint is actually
 about *decision* difficulty among a large set of visible choices rather
 than a scanning/parsing problem, redirect to `hicks-law.md` — the two
 are frequently confused but call for different fixes.
+
+## Precise reference points (origins, research)
+
+- **Origin:** From a 1956 paper by cognitive psychologist George Miller,
+  "The Magical Number Seven, Plus or Minus Two: Some Limits on Our
+  Capacity for Processing Information," which observed that young adults'
+  memory span clustered around seven items regardless of what kind of
+  stimuli were being remembered — leading Miller to conclude that it's the
+  number of **chunks** (grouped, familiar units), not the raw amount of
+  information, that limits short-term memory. Miller himself treated "the
+  magical number seven" as a rhetorical flourish and was reportedly
+  surprised at how literally later readers took it as a hard design rule.
+- **Later research complicates the exact number** (useful to cite when
+  pushing back on a literal "seven items" rule): subsequent work has
+  argued the practical short-term memory limit may be closer to four
+  chunks for many tasks, and other researchers have argued against
+  measuring working-memory capacity as a fixed number of elements at all.
+  The consistent, actionable takeaway across all of this research is
+  chunking as a technique — not agreement on a specific magic number.
+- **Formatting example worth citing directly:** an unformatted string of
+  digits is measurably harder to parse and retain than the same digits
+  grouped into a conventional pattern (compare a raw 10-digit string to
+  the same number broken into area code / exchange / line number) — a
+  simple, concrete illustration of chunking that generalizes to reference
+  codes, confirmation numbers, and other long identifiers.
+- **"Wall of text" contrast:** unformatted long-form content (no headings,
+  no hierarchy, full-width line lengths) is functionally the same problem
+  as an unformatted phone number, just at a larger scale — and the fix set
+  is the same in kind: add headings/subheadings for hierarchy, use
+  whitespace to break content into discernible sections, shorten line
+  length, and visually mark links and key terms so they read as distinct
+  chunks rather than blending into the surrounding text.
+- **Toolbar and e-commerce chunking examples worth citing as a pattern
+  (not as one company's proprietary layout):** editing-tool toolbars
+  commonly separate functionally distinct control groups (page controls,
+  text controls, insert controls, formatting controls) with visible
+  dividers; e-commerce product grids commonly chunk each product's image,
+  title, price, and metadata purely through consistent proximity, without
+  needing a border or background to signal the grouping; large primary
+  navigation menus stay scannable well beyond any "seven item" ceiling
+  when sub-groups are clearly separated by whitespace and dividers rather
+  than left as one undifferentiated list.

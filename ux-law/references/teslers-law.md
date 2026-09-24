@@ -108,3 +108,88 @@ in.
   as a preferred technique for shifting complexity out of the primary
   view without deleting user control outright — it's a good middle ground
   between "show everything" and "remove functionality."
+
+## Precise reference points (origins, research, technique)
+
+- **Origin:** Traces to the mid-1980s work of Larry Tesler, a computer
+  scientist at Xerox PARC who helped develop the emerging discipline of
+  interaction design during the early development of desktop computing
+  and desktop publishing. Tesler recognized that interface consistency
+  benefited both users and developers, since shared standards could be
+  encapsulated in reusable software libraries. Later, while working on an
+  object-oriented application framework at Apple, he framed the "law of
+  conservation of complexity" explicitly as an argument for building
+  shared standards into the underlying software rather than pushing
+  complexity out to end users — his own reasoning was that if a huge
+  number of users each individually lose a small amount of time dealing
+  with complexity an engineering team could have absorbed once, that
+  trade-off effectively penalizes the many to spare the few.
+- **Complexity bias, named specifically:** a documented cognitive bias
+  in which people tend to favor complicated-seeming solutions over
+  straightforward ones, partly because complexity gets unconsciously
+  associated with intelligence, expertise, or depth of understanding. A
+  1989 study (Farris and Revlin) demonstrated this concretely: participants
+  asked to discover a simple numeric rule (list any three ascending
+  numbers) overwhelmingly assumed the rule had to be more complicated than
+  it actually was, and favored testing elaborate hypotheses over the
+  simple, correct one. The design-relevant implication: when a team finds
+  itself gravitating toward an unusually complex solution, that's often a
+  signal the underlying problem isn't fully understood yet, not a sign the
+  problem genuinely requires that much complexity.
+- **Email as the canonical example:** every email fundamentally requires
+  two pieces of information — who it's from and who it's going to — and
+  it cannot be sent without both, making this a necessary, irreducible
+  complexity. Modern email clients don't eliminate this requirement; they
+  absorb it by pre-populating the sender (since the client already knows
+  the user's own address) and suggesting recipients as the user types,
+  based on prior contacts. AI-assisted features layered on top of this
+  (auto-completing sentences as they're typed, or suggesting quick reply
+  options based on an email's content) extend the same underlying
+  pattern — none of these features remove the complexity of composing a
+  message, they shift more and more of it onto the system.
+- **Checkout examples worth citing along a spectrum:** a "shipping address
+  same as billing" option is a simple, common example of shifting
+  redundant-entry complexity onto the system; saved-payment or one-tap
+  purchase flows (e.g., a platform-level digital wallet) shift it further,
+  reducing repeat checkout to selecting a saved option and confirming;
+  and fully checkout-free retail experiences (using computer vision,
+  machine learning, and account linkage to let a customer simply take
+  items and leave, with a receipt and charge generated automatically)
+  represent close to the far end of that spectrum — the customer's
+  experience becomes dramatically simpler precisely because an enormous
+  amount of technical complexity has been absorbed on the system side.
+- **Intent-based / natural-language interaction as a newer example:**
+  some modern analytics and data tools let users describe the outcome
+  they want in plain language rather than manually configuring every
+  step of a traditional command-based interface — this newer paradigm can
+  substantially lower the expertise barrier required to reach "power
+  user" capability, since the system absorbs more of the procedural
+  complexity of translating intent into the correct sequence of actions.
+- **The paradox of the active user, precisely:** first described by Mary
+  Beth Rosson and John Carroll (1987) based on observed user studies at
+  IBM's User Interface Institute, this describes the consistent finding
+  that new users do not read supplied manuals or documentation before
+  starting — they dive straight into using a product, even at the cost of
+  hitting avoidable errors and roadblocks. It's a genuine paradox because
+  users would frequently save time overall by learning the system first —
+  but that's simply not how people behave in practice, which is why
+  in-context guidance (tooltips, inline hints reachable at the moment
+  they're needed) is a more effective design response than assuming users
+  will read documentation up front.
+
+### Technique: Progressive Disclosure
+
+Progressive disclosure is an interaction design technique that shows only
+the most important actions or content by default, while keeping
+additional features or content easily reachable but out of the way until
+needed. Any dropdown, accordion, or toggle that reveals hidden content on
+demand is an application of this technique. It's a particularly useful
+way to manage Tesler's-Law-style complexity because it defers less
+essential actions, advanced features, or supplementary content to a
+secondary layer of the interface, keeping the primary view focused and
+scannable without deleting functionality outright. A commonly cited
+example is a navigation pattern where hovering or interacting with a
+top-level category reveals a fuller menu of related links underneath it
+— letting the primary navigation bar stay compact and scannable while
+still giving users a path to a large amount of underlying content when
+they actually want it.

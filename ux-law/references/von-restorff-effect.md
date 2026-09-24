@@ -97,3 +97,92 @@ have nothing to do with the emphasis technique itself:
   placement or style before recommending a louder visual treatment — the
   actual fix may be relocating it away from ad-adjacent conventions, not
   amplifying it in place.
+
+## Precise reference points (origins, research, technique)
+
+- **Origin:** Named after German psychiatrist and pediatrician Hedwig von
+  Restorff, whose 1933 study used what's called the "isolation paradigm"
+  — presenting participants with a list of categorically similar items —
+  and found that the one item that stood out as distinctly different from
+  the rest was recalled best. Von Restorff wasn't the first to study this
+  effect, but her name became closely associated with it. Later research
+  (Taylor and Fiske, 1978) corroborated the broader pattern: people are
+  disproportionately drawn to salient, novel, surprising, or distinctive
+  stimuli in general, not just in memory-list experiments.
+- **Selective attention, named specifically:** because attention — like
+  working memory (see `millers-law.md`) — is a genuinely limited resource,
+  people filter out information that doesn't appear relevant to their
+  current goal, a survival-rooted mechanism known as selective attention.
+  There's broad agreement in psychological research that working memory
+  and attention are closely linked, which is why this law and Miller's
+  Law are conceptually neighbors even though they're usually applied to
+  different kinds of interface problems.
+- **Banner blindness, specifically:** a robust, well-documented behavior
+  pattern (tracked across roughly three decades of research) in which
+  people learn to ignore anything they perceive as an advertisement.
+  Because this learned avoidance generalizes to *any* content that
+  resembles typical ad patterns — not just literal ads — legitimate
+  content placed near ads, or styled the way ads are typically styled,
+  risks being tuned out along with them, regardless of how much visual
+  emphasis it's given.
+- **Change blindness, specifically:** the related tendency for people to
+  fail to notice a genuinely significant change when the visual cue
+  signaling it is too weak, or when their attention is simply focused
+  elsewhere at the moment the change occurs — worth checking for
+  specifically whenever a design change needs to be *noticed*, not just
+  present.
+- **Concrete emphasis examples worth citing as patterns:** a confirmation
+  dialog with visually indistinct action buttons risks accidental
+  selection of the wrong (potentially destructive) option, while adding
+  clear visual emphasis to the correct/intended action — plus, for extra
+  safety on a high-stakes action, a warning icon in the dialog's header —
+  measurably reduces that risk; a dedicated "floating action button"
+  pattern (as standardized in Google's Material Design guidelines) is a
+  good example of the effect combined with Jakob's Law, since its
+  consistent, guideline-driven placement and appearance across many
+  products makes it both distinctive *and* familiar; pricing/plan
+  comparison tables commonly emphasize one recommended tier through
+  multiple reinforcing cues at once (a distinct color, a slightly larger
+  card via a "most popular" label element, and central positioning) rather
+  than a single weak cue; and news websites commonly use *scale* rather
+  than color alone to make featured headlines break out of an otherwise
+  uniform grid of content.
+- **Accessibility figures worth citing precisely:** WCAG guidance
+  recommends a text-to-background contrast ratio of at least 4.5:1 for
+  normal-size text, with a more lenient roughly 3:1 minimum for larger
+  text (about 18pt and up) or bold text (about 14pt and up). Focus
+  indicators — typically a distinct, thick-weight outline around the
+  currently focused element — are a standard example of a non-color
+  visual cue that supports keyboard navigation, applied consistently to
+  links, form fields, buttons, and menu items.
+- **Motion sensitivity specifics worth naming:** conditions such as benign
+  paroxysmal positional vertigo (BPPV) and labyrinthitis (both affecting
+  the inner-ear system responsible for balance and eye-movement control)
+  can cause motion-based UI emphasis to trigger genuine dizziness, nausea,
+  or headaches; epilepsy and migraine sensitivity are separate,
+  additional reasons to be cautious with motion as an emphasis technique.
+
+### Technique: Eye Tracking
+
+Eye tracking is a research method that uses specialized hardware and
+software to measure and record where people actually look and how their
+gaze moves across a digital interface or physical object, producing
+objective behavioral data (where users look, how they navigate, what they
+ignore, and inferred emotional responses) that's less prone to the kind of
+self-report bias that can affect interviews or surveys. Common study types
+include heat maps, gaze plots, fixation-duration analysis, attentional-
+bias studies, and comparative studies, with the choice depending on the
+specific research question. A typical eye-tracking study follows seven
+steps: define the research question; select a representative sample of
+participants; set up and calibrate the eye-tracking hardware/software for
+each participant; develop the stimuli (the interfaces, websites, or
+objects participants will actually interact with); conduct the study
+while recording eye movements; analyze the resulting data; and interpret
+the results to draw conclusions about behavior, preferences, and
+cognitive process. Eye tracking has real limitations — including limited
+context, potential interference from the equipment itself, small typical
+sample sizes, a limited range of stimuli that can realistically be
+tested, cultural variation in gaze behavior, and general technical
+constraints — so it's best used alongside other research methods rather
+than as a sole source of evidence, with its limitations and potential
+biases explicitly accounted for when interpreting results.

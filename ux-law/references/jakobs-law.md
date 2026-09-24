@@ -141,3 +141,48 @@ When citing "how other products do this," name the pattern generically
 (e.g., "the standard multi-step checkout with a persistent order
 summary") rather than a specific competitor's exact implementation,
 unless the user already named that competitor.
+
+## Precise reference points (origins, research, technique)
+
+- **Origin:** Named "Jakob's law of the internet user experience," formulated
+  in 2000 by usability expert Jakob Nielsen, who described users' tendency to
+  build design-convention expectations from their cumulative experience
+  across many websites, and who framed this as a general law of human
+  nature that designers should work with rather than against.
+- **Mental models:** A mental model is what a person believes about how a
+  system works, based on prior experience with similar systems — physical
+  or digital. This concept (associated with Donald Norman's writing on
+  everyday design) is the psychological mechanism underlying the whole law:
+  designs that match a user's existing mental model let them transfer
+  knowledge without first having to learn a new system from scratch.
+- **Real-world contrast case worth citing in a writeup:** a major platform's
+  2018 redesign that merged two previously separate parts of the app (story-
+  watching and messaging) without a gradual rollout produced significant
+  public backlash and a documented user migration to a competitor — a
+  concrete illustration of what happens when a redesign ships as a single
+  forced change with no bridging mechanism. Contrast this with a large
+  platform's video-site redesign the same era, which let desktop users
+  preview a new design, submit feedback, and revert to the old version if
+  they preferred it — the same category of underlying mental-model mismatch
+  handled with a staged, reversible rollout instead.
+- **Physical-world precedent for control design:** the visual language of
+  common UI form controls (toggles, radio inputs, buttons) is itself
+  inherited from physical control-panel design — people's mental model of
+  "how a switch behaves" long predates software and still shapes how these
+  controls are expected to look and behave on screen.
+
+### Technique: User Personas
+
+A user persona is a fictional representation of a specific segment of a
+product's real target audience, built from aggregated research data (not
+invented from assumption) and used to keep a team focused on real user needs
+rather than an undefined, generic "the user." A persona typically documents
+three kinds of information: **info** (photo, name/tagline, age, occupation —
+enough to make the group feel like a realistic, specific kind of person);
+**details** (a short bio, relevant behavioral traits, frustrations, and
+often goals, motivations, or typical tasks); and **insights** (direct
+quotes and context from real user research that convey the persona's
+attitude and mindset). Personas are most useful when grounded in actual
+research with real users — a persona built purely from assumption can still
+align a team's thinking, but risks pointing that alignment in the wrong
+direction if it doesn't reflect who actually uses the product.

@@ -120,3 +120,93 @@ generic "improve the emotional experience" note. When recommending fixes:
 - Don't recommend "add delight" without anchoring it to a specific
   identified peak or ending moment, and check that it won't read as
   hollow given the rest of the surrounding experience.
+
+## Precise reference points (origins, research, technique)
+
+- **Foundational experiment:** a 1993 study (Kahneman and colleagues)
+  had participants submerge a hand in uncomfortably cold water (roughly
+  14°C) for 60 seconds in one trial, and in a second trial submerge the
+  other hand in the same cold water for 60 seconds *plus* an additional
+  30 seconds during which the water was gradually warmed slightly. When
+  asked which trial they'd be willing to repeat, participants favored the
+  *longer* trial — the one with strictly more total discomfort — because
+  it ended on a comparatively less unpleasant note. Total duration barely
+  mattered to recalled preference; the trajectory into the ending did.
+- **Clinical follow-up studies worth citing:** later research on patients
+  undergoing colonoscopy and lithotripsy procedures (mid-to-late 1990s and
+  early 2000s) found that patients consistently evaluated overall
+  discomfort based on the pain intensity at the worst moment and at the
+  final moment of the procedure, regardless of the procedure's total
+  length or the amount of pain-intensity variation throughout. A
+  follow-up study went further: patients randomly assigned to a version of
+  the procedure with a few extra minutes added at the end (during which
+  discomfort was intentionally lower) rated the overall experience as
+  *less* unpleasant, and were *more* likely to return for future
+  procedures, than patients who underwent the shorter version ending at
+  the original, higher-discomfort point.
+- **Related cognitive biases worth naming specifically:** cognitive biases
+  in general are systematic, largely unconscious shortcuts in judgment
+  (a concept popularized by Amos Tversky and Daniel Kahneman starting in
+  the early 1970s) that speed up decision-making at some cost to accuracy.
+  **Confirmation bias** — the tendency to seek out and recall information
+  that confirms existing beliefs while discounting information that
+  challenges them — is one well-known example. The peak-end rule itself is
+  specifically a *memory* bias. It's closely related to the **recency
+  effect**: items near the end of a sequence are disproportionately easy
+  to recall, which is part of the mechanism behind why the ending of an
+  experience carries so much retrospective weight.
+- **Wait-time example worth citing by name:** a major ride-hailing
+  company found that addressing perceived wait time (rather than only
+  raw wait duration) reduced post-request cancellations, using three
+  specific concepts together: **idleness aversion** (keeping the user
+  visually informed and engaged rather than facing a static blank
+  screen), **operational transparency** (explaining how an estimate is
+  calculated, not just displaying a number), and the **goal gradient
+  effect** (making each concrete step of progress toward the goal visible,
+  so the user feels continuously closer rather than stalled).
+- **Milestone/gamification example worth citing:** a popular
+  language-learning app uses streaks and level-based milestones —
+  reinforced with brand-specific illustration, subtle animation, and
+  humor — to turn routine progress markers into genuinely memorable
+  positive peaks, going beyond a plain, generic progress indicator.
+- **Personalized reflective moment example worth citing:** a major music
+  streaming service's end-of-year personalized listening recap is a
+  concrete example of using a naturally reflective calendar moment (the
+  end of the year) to turn a routine data summary into a positive,
+  shareable emotional peak, through personalization and self-reflection.
+- **404/error-page example worth citing, with its caveat:** some
+  companies use a broken-link (404) page as an opportunity to reinforce
+  brand personality through humor rather than leaving a cold, generic
+  failure message — but this only works for genuinely low-stakes
+  failures; the same lighthearted tone applied to a serious failure (a
+  lost payment, lost data) risks reading as dismissive rather than
+  reassuring, so tone should always be matched to the actual stakes of
+  the specific failure.
+- **Real-time validation example worth citing:** rigid password-creation
+  rules enforced only after submission (rather than validated in real
+  time as the user types) are a common, avoidable source of an early
+  negative peak, right at the moment a new user is most enthusiastic
+  about trying a product — real-time, in-context validation is the
+  standard fix.
+
+### Technique: Journey Mapping
+
+Journey mapping is a qualitative research artifact for visualizing how a
+person moves through a product or service experience while accomplishing
+a specific goal, and it's the standard way to locate emotional peaks
+systematically rather than guessing at them. A journey map typically
+includes three parts. The **lens** establishes perspective: the
+persona representing the end user (ideally grounded in real research, not
+assumption), the specific scenario being mapped, and the persona's
+expectations going into that scenario (for example: a specific persona
+using a ride-share app to order a ride, expecting arrival within a
+specific number of minutes). The **experience** section lays out
+high-level phases, the concrete actions the user takes within each phase,
+a layer capturing the user's mindset during each phase (thoughts, pain
+points, questions, motivations — typically drawn from real research and
+interviews), and — most relevant to this law specifically — a continuous
+emotional line plotted across the whole timeline, which is exactly where
+peaks (positive or negative) become visible at a glance. The **insights**
+section captures the resulting opportunities for improvement, along with
+the metrics that would indicate progress on each opportunity and which
+team internally owns following through on it.

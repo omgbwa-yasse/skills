@@ -126,3 +126,74 @@ debrief participants on their reasoning.
   "simplicity" without checking whether that removes information the
   user actually needs to act confidently — name the specific information
   being lost, if any.
+
+## Precise reference points (origins, formula, research, technique)
+
+- **Origin and formula:** Formulated in 1952 by psychologists William
+  Edmund Hick and Ray Hyman, who studied the relationship between the
+  number of stimuli present and reaction time. The relationship is
+  commonly expressed as RT = a + b·log2(n), where RT is response time, n
+  is the number of choices, and a and b are task-dependent constants —
+  the key practical implication is that decision time grows
+  *logarithmically*, not linearly, with the number of options, so each
+  additional option adds progressively less marginal decision time than
+  the one before it, but the effect is still real and compounds with
+  genuinely large option sets.
+- **The jam study (cite this specifically for "paradox of choice"
+  findings):** a well-known field experiment (Iyengar and Lepper, 2000)
+  set up a tasting table at an upscale food market, alternating between a
+  large assortment (24 varieties of jam) and a small assortment (6
+  varieties). The large display drew more attention and browsing, but
+  shoppers who saw the large assortment were only about one-tenth as
+  likely to actually make a purchase compared to shoppers who saw the
+  small assortment — a concrete demonstration that more choice can
+  suppress action even while it increases initial interest. This study is
+  the empirical basis for psychologist Barry Schwartz's popularized
+  concept of the "paradox of choice."
+- **TV remote example worth citing as a physical-world illustration:** as
+  television feature sets grew over the decades, remote controls
+  accumulated more and more buttons, to the point where some users
+  resorted to physically taping over everything except the handful of
+  essential controls — an informal but telling illustration of users
+  self-simplifying an interface that failed to manage choice on their
+  behalf. Modern minimalist remotes (with the bulk of functionality moved
+  into an organized, progressively disclosed on-screen menu) represent the
+  opposite, better-managed approach to the same underlying feature set.
+- **Deferred-choice examples worth citing:** search interfaces that
+  surface filtering options (type, date, category) only *after* an
+  initial simple search action, rather than requiring full configuration
+  up front; step-by-step onboarding checklists that hand a new user one
+  task at a time rather than the full range of product capability at
+  once; curated "trending" or "popular" sections in large content
+  catalogs, which work partly through **social proof** — weighting a
+  choice based on evidence that many other people have already made and
+  been satisfied with it — as a way to narrow the effective choice set for
+  a first-pass decision without removing the rest of the catalog.
+- **Icon ambiguity:** because there's no standards body governing which
+  icon shape must mean which action, the same icon (a heart or star, for
+  instance) can mean "favorite," "like," "bookmark," or "rate" depending
+  on the product — and can even carry competing meanings within the same
+  product across different screens. This ambiguity adds interpretation
+  time on top of ordinary decision time, and the standard, low-cost fix is
+  pairing ambiguous icons with a text label, especially for primary
+  navigation.
+
+### Technique: Card Sorting
+
+Card sorting is a research method for surfacing users' real mental models
+for how content or options should be organized, rather than relying on a
+designer's assumptions. The most common variant — a moderated, **open**
+card sort (where participants create their own categories, as opposed to
+a **closed** sort where categories are predefined by the researcher) —
+follows four steps: **identify topics** (choose the items to be sorted,
+each on its own card, avoiding near-duplicate labels that could bias
+participants into grouping items together purely because of similar
+wording); **organize topics** (have participants group the cards however
+makes sense to them, ideally thinking out loud during the process to
+surface their reasoning); **name categories** (ask participants to name
+the groups they created in their own words — this step is especially
+valuable because it reveals the actual mental-model vocabulary to use in
+the real information architecture); and, optionally, **debrief
+participants** (ask them to explain their rationale for each grouping,
+which surfaces difficulties they encountered and thoughts on any items
+they couldn't place).
